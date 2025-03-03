@@ -2,7 +2,7 @@ body {
   margin: auto;
 }
 
-.header  {
+.header {
   font-size: 20px;
 
   position: sticky;
@@ -57,11 +57,10 @@ body {
 
 @font-face {
   font-family: "Radiotechnika";
-  src: url(fonts/Radiotechnika.ttf);
+  src: url(fonts/Radiotechnika.woff);
 }
 
 .content {
-  
   color: white;
   background-image: url(blue-soccer-ball-kicks-into-net-generative-ai.jpg);
   opacity: 0.9;
@@ -75,7 +74,6 @@ body {
   font-family: "Sony";
   text-align: center;
 
- 
   font-size: 2rem;
   text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
     1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
@@ -435,7 +433,6 @@ body {
   text-align: center;
   font-size: 30px;
   color: red;
-
 }
 
 .result3_2first {
@@ -721,16 +718,15 @@ body {
 }
 
 .navbar-nav {
-margin-right: auto;
-margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .tbs {
-text-align: center;
-width: 90%;
+  text-align: center;
+  width: 90%;
 }
 
 .zix {
-font-size: 38px;
+  font-size: 38px;
 }
-
