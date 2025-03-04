@@ -1,6 +1,4 @@
-body {
-  margin: auto;
-}
+
 
 /* @font-face {
   font-family: "MyFont1";
@@ -739,3 +737,745 @@ body {
 .navbar {
   font-family: "MyFont1";
 }
+body {
+  margin: auto;
+}
+
+/* @font-face {
+  font-family: "MyFont1";
+  src: url(fonts/MyFont1.ttf);
+} */
+
+.header {
+  font-size: 20px;
+  position: sticky;
+  z-index: 3;
+  background: white;
+  top: 0;
+  letter-spacing: normal;
+  letter-spacing: 1rem;
+  color: rgb(120, 122, 126);
+  text-align: center;
+  box-shadow: 5px 8px 5px #111111;
+  width: auto;
+  padding: 6px 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(12, 12, 12);
+
+  text-shadow: 1px 1px 1px #131302, 1px 2px 1px #f3f3ec,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+  background-image: linear-gradient(
+    to right,
+    #414241,
+    #727274,
+    #515255,
+    #4c4d49,
+    #747471
+  );
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 2s infinite alternate-reverse;
+
+  @keyframes animated-gradient {
+    to {
+      background-position: 200%;
+    }
+  }
+  transition: all ease-in-out 2s;
+}
+
+.header:hover {
+  background-position: 200%;
+}
+
+@font-face {
+  font-family: "Radiotechnika";
+  src: url(fonts/Radiotechnika.woff);
+}
+
+.content {
+  color: white;
+  background-image: url(blue-soccer-ball-kicks-into-net-generative-ai.jpg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Sony";
+  text-align: center;
+
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+@font-face {
+  font-family: "Sony";
+  src: url(fonts/SonyEricssonLogo.ttf);
+}
+
+.nomer_eight {
+  text-align: center;
+  font-family: "Arkhip";
+  color: rgb(20, 20, 1);
+  font-size: 30px;
+  font-weight: 800;
+  background-color: rgba(192, 173, 4, 0.938);
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  display: block;
+}
+
+.match {
+  text-align: top;
+  align-items: center;
+  display: flex;
+}
+
+.player {
+  color: gold;
+  font-size: 25px;
+}
+
+.result1_1first {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_2first {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_3first {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_1second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_2second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_3second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_1third {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_2third {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result1_3third {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_1fourth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_2fourth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_3fourth {
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+
+.result1_1fifth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_2fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result1_3fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result1_1sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result1_2sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result1_3sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result1_1seventh {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_2seventh {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_3seventh {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_1eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_2eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result1_3eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.name {
+  color: rgb(185, 158, 4);
+  text-shadow: 1px 1px 1px #131314, 1px 2px 1px #141414,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+  width: auto;
+}
+
+.result2_1first {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_2first {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_3first {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result2_1second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result2_2second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result2_3second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result2_1third {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_2third {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_3third {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_1fourth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_2fourth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_3fourth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result2_1fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_2fifth {
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+
+.result2_3fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_1sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_2sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_3sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_1seventh {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result2_2seventh {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_3seventh {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result2_1eighth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_2eighth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result2_3eighth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.tour {
+  color: rgb(236, 76, 13);
+}
+
+@font-face {
+  font-family: "Danube";
+  src: url(fonts/Danube.ttf);
+}
+
+@font-face {
+  font-family: "Porsche";
+  src: url(fonts/Porsche.ttf);
+}
+
+@font-face {
+  font-family: "Arkhip";
+  src: url(fonts/Arkhip.ttf);
+}
+
+.navbar {
+  font-family: "Radiotechnika";
+  font-size: 16px;
+}
+
+.result3_1first {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_2first {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_3first {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_1second {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_2second {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_3second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_1third {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_2third {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_3third {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_1fourth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_2fourth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_3fourth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_1fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_2fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_3fifth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_1sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_2sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_3sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_1seventh {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_2seventh {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_3seventh {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result3_1eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_2eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result3_3eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_1first {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_2first {
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+
+.result4_3first {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_1second {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_2second {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_3second {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_1third {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_2third {
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+
+.result4_3third {
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+
+.result4_1fourth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_2fourth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_3fourth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_1fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_2fifth {
+  text-align: center;
+  font-size: 30px;
+  color: green;
+}
+
+.result4_3fifth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_1sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_2sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_3sixth {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_1seventh {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_2seventh {
+  text-align: center;
+  font-size: 30px;
+  color: yellow;
+}
+
+.result4_3seventh {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_1eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_2eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.result4_3eighth {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.navbar-nav {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tbs {
+  text-align: center;
+  width: 90%;
+}
+
+.zix {
+  font-size: 38px;
+}
+
+@font-face {
+  font-family: "MyFont1";
+  src: url(MyFont1.ttf) format(truetype)
+}
+
+.header {
+  font-family: "MyFont1";
+}
+
+.navbar {
+  font-family: "MyFont1";
+}
+
