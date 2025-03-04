@@ -2,20 +2,21 @@ body {
   margin: auto;
 }
 
+/* @font-face {
+  font-family: "MyFont1";
+  src: url(fonts/MyFont1.ttf);
+} */
+
 .header {
   font-size: 20px;
-
   position: sticky;
   z-index: 3;
   background: white;
   top: 0;
-
   letter-spacing: normal;
   letter-spacing: 1rem;
   color: rgb(120, 122, 126);
   text-align: center;
-  font-family: "Radiotechnika";
-
   box-shadow: 5px 8px 5px #111111;
   width: auto;
   padding: 6px 50px;
@@ -48,11 +49,6 @@ body {
 
 .header:hover {
   background-position: 200%;
-}
-
-@font-face {
-  font-family: "ForestSmoth";
-  src: url(fonts/ForestSmooth.ttf);
 }
 
 @font-face {
@@ -729,4 +725,17 @@ body {
 
 .zix {
   font-size: 38px;
+}
+
+@font-face {
+  font-family: "MyFont1";
+  src: url(fonts/MyFont1.ttf);
+}
+
+.header {
+  font-family: "MyFont1";
+}
+
+.navbar {
+  font-family: "MyFont1";
 }
