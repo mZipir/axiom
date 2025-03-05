@@ -1,6 +1,4 @@
-body {
-  margin: auto;
-}
+
 
 .header {
   font-size: 20px;
@@ -68,7 +66,7 @@ body {
   font-family: "Sony";
   text-align: center;
 
-  font-size: 2rem;
+  font-size: 1rem;
   text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
     1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
     1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
@@ -106,46 +104,55 @@ body {
 .result1_1first {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .result1_2first {
   text-align: center;
   font-size: 38px;
+  color: green;
 }
 
 .result1_3first {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .result1_1second {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .result1_2second {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .result1_3second {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .result1_1third {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .result1_2third {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .result1_3third {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .result1_1fourth {
@@ -250,10 +257,7 @@ body {
   src: url(fonts/Arkhip.ttf);
 }
 
-.navbar {
-  font-family: "Radiotechnika";
-  font-size: 16px;
-}
+
 
 .navbar-nav {
   margin-right: auto;
@@ -271,7 +275,7 @@ body {
 
 @font-face {
   font-family: "MyFont1";
-  src: url(MyFont1.ttf) format(truetype);
+  src: url(MyFont1.ttf) format(truetype)
 }
 
 .header {
@@ -281,3 +285,4 @@ body {
 .navbar {
   font-family: "MyFont1";
 }
+

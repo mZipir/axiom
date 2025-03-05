@@ -1,12 +1,9 @@
-
-
 /* @font-face {
   font-family: "MyFont1";
   src: url(fonts/MyFont1.ttf);
 } */
 
 .header {
-  font-size: 20px;
   position: sticky;
   z-index: 3;
   background: white;
@@ -21,7 +18,7 @@
   margin-top: 0;
   margin-bottom: 0;
   color: rgb(12, 12, 12);
-
+  font-size: 3rem;
   text-shadow: 1px 1px 1px #131302, 1px 2px 1px #f3f3ec,
     1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
     1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
@@ -1468,7 +1465,7 @@ body {
 
 @font-face {
   font-family: "MyFont1";
-  src: url(MyFont1.ttf) format(truetype)
+  src: url(MyFont1.ttf) format(truetype);
 }
 
 .header {
@@ -1478,4 +1475,3 @@ body {
 .navbar {
   font-family: "MyFont1";
 }
-

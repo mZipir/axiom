@@ -1,32 +1,28 @@
+
 body {
   margin: 0;
 }
 
 .header {
-  font-size: 20px;
-
+  font-size: 12px;
   position: sticky;
   z-index: 3;
   background: white;
   top: 0;
-
   letter-spacing: normal;
   letter-spacing: 1rem;
   color: rgb(120, 122, 126);
   text-align: center;
-  font-family: "Radiotechnika";
-
   box-shadow: 5px 8px 5px #0c0000;
   width: auto;
   padding: 6px 50px;
   margin-top: 0;
   margin-bottom: 0;
   color: rgb(12, 12, 12);
-
   text-shadow: 1px 1px 1px #131302, 1px 2px 1px #f3f3ec,
     1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
     1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
-  
+
   background-image: linear-gradient(
     to right,
     #414241,
@@ -51,17 +47,12 @@ body {
   background-position: 200%;
 }
 
-@font-face {
-  font-family: "Radiotechnika";
-  src: url(fonts/Radiotechnika.ttf);
-}
-
 .content {
-  color: rgb(180, 199, 10);
+  color: rgb(219, 247, 11);
   background-image: url(soccer-ball-kicking-through-dirty-netting-generated-by-ai.jpg);
   opacity: 0.9;
   min-height: 1100px;
-  
+
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -69,10 +60,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: "Radiotechnika";
+
   text-align: center;
 
-  font-size: 2rem;
+  font-size: 1rem;
   text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
     1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
     1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
@@ -97,7 +88,7 @@ body {
   border-radius: 50%;
   height: 5rem;
   width: 5rem;
- display: block;
+  display: block;
 }
 
 .team {
@@ -114,7 +105,7 @@ body {
 
 @font-face {
   font-family: "ForestSmoth";
-  src: url(fonts/ForestSmooth.ttf) format("truetype");
+  src: url(ForestSmooth.ttf) format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -139,17 +130,33 @@ body {
   color: white;
 }
 
-.container {
-  font-family: "Radiotechnika";
-  font-size: 16px;
-}
+
 
 @font-face {
   font-family: "Arkhip";
-  src: url(fonts/Arkhip.ttf);
+  src: url(Arkhip.ttf);
 }
 
 .navbar-nav {
   margin-right: auto;
   margin-left: auto;
-  }
+}
+
+@font-face {
+  font-family: "MyFont1";
+  src: url(MyFont1.ttf) format(truetype)
+}
+
+.header {
+  font-family: "MyFont1";
+}
+
+.navbar {
+  font-family: "MyFont1";
+}
+
+.content {
+font-family: "MyFont1";
+}
+
+
