@@ -1,74 +1,17 @@
-/* @font-face {
-  font-family: "MyFont1";
-  src: url(fonts/MyFont1.ttf);
-} */
-
-.header {
-  position: sticky;
-  z-index: 3;
-  background: white;
-  top: 0;
-  letter-spacing: normal;
-  letter-spacing: 1rem;
-  color: rgb(120, 122, 126);
-  text-align: center;
-  box-shadow: 5px 8px 5px #111111;
-  width: auto;
-  padding: 6px 50px;
-  margin-top: 0;
-  margin-bottom: 0;
-  color: rgb(12, 12, 12);
-  font-size: 3rem;
-  text-shadow: 1px 1px 1px #131302, 1px 2px 1px #f3f3ec,
-    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
-    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
-  background-image: linear-gradient(
-    to right,
-    #414241,
-    #727274,
-    #515255,
-    #4c4d49,
-    #747471
-  );
-  background-size: 200%;
-  background-position: -200%;
-  animation: animated-gradient 2s infinite alternate-reverse;
-
-  @keyframes animated-gradient {
-    to {
-      background-position: 200%;
-    }
-  }
-  transition: all ease-in-out 2s;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.header:hover {
-  background-position: 200%;
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 @font-face {
   font-family: "Radiotechnika";
   src: url(fonts/Radiotechnika.woff);
-}
-
-.content {
-  color: white;
-  background-image: url(blue-soccer-ball-kicks-into-net-generative-ai.jpg);
-  opacity: 0.9;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Sony";
-  text-align: center;
-
-  font-size: 2rem;
-  text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
-    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
-    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
 @font-face {
@@ -86,7 +29,7 @@
   border-radius: 50%;
   height: 5rem;
   width: 5rem;
-  display: block;
+  display: flex;
 }
 
 .match {
@@ -97,7 +40,7 @@
 
 .player {
   color: gold;
-  font-size: 25px;
+  font-size: 12px;
 }
 
 .result1_1first {
@@ -792,9 +735,49 @@ body {
   src: url(fonts/Radiotechnika.woff);
 }
 
+.content_res {
+  color: white;
+  background-image: url(soccer-ball-kicking-through-dirty-netting-generated-by-ai.jpg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Sony";
+  text-align: center;
+
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
 .content {
   color: white;
   background-image: url(blue-soccer-ball-kicks-into-net-generative-ai.jpg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Sony";
+  text-align: center;
+
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+.table-container {
+  color: white;
+  background-image: url(ultra-detailed-green-grass-cinematic-lighting-football-stadium.jpg);
   opacity: 0.9;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1468,10 +1451,307 @@ body {
   src: url(MyFont1.ttf) format(truetype);
 }
 
-.header {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: "MyFont1";
 }
 
-.navbar {
-  font-family: "MyFont1";
+header {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  transition: transform 0.9s ease, color 0.2s ease;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.logo a:hover {
+  color: #f79443;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  transition: transform 0.9s ease, color 0.2s ease;
+}
+.nav-links a:hover {
+  color: #f79443;
+  transform: scale(1.1);
+}
+.nav-button {
+  background-color: #f48024;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 52px;
+}
+.nav-button:hover {
+  background-color: #d96b1d;
+}
+
+.table_page {
+  color: rgb(219, 247, 11);
+  background-image: url(ultra-detailed-green-grass-cinematic-lighting-football-stadium.jpg);
+  opacity: 0.9;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px #120322, 1px 2px 1px #0e021a,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+.calend_content {
+  color: white;
+  background-image: url(ultra-detailed-green-grass-cinematic-lighting-football-stadium.jpg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Sony";
+  text-align: center;
+}
+
+.cresult1_1first {
+  text-align: center;
+  font-size: 38px;
+  color: yellow;
+}
+
+.cresult1_2first {
+  text-align: center;
+  font-size: 38px;
+  color: green;
+}
+
+.cresult1_3first {
+  text-align: center;
+  font-size: 38px;
+  color: yellow;
+}
+
+.cresult1_1second {
+  text-align: center;
+  font-size: 38px;
+  color: yellow;
+}
+
+.cresult1_2second {
+  text-align: center;
+  font-size: 38px;
+  color: yellow;
+}
+
+.cresult1_3second {
+  text-align: center;
+  font-size: 38px;
+  color: red;
+}
+
+.cresult1_1third {
+  text-align: center;
+  font-size: 38px;
+  color: red;
+}
+
+.cresult1_2third {
+  text-align: center;
+  font-size: 38px;
+  color: red;
+}
+
+.cresult1_3third {
+  text-align: center;
+  font-size: 38px;
+  color: red;
+}
+
+.cresult1_1fourth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_2fourth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_3fourth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_1fifth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_2fifth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_3fifth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_1sixth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_2sixth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_3sixth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_1seventh {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_2seventh {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_3seventh {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_1eighth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_2eighth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.cresult1_3eighth {
+  text-align: center;
+  font-size: 38px;
+}
+
+.rt {
+  color: rgb(219, 219, 36);
+  font-size: 29px;
+  text-align: center;
+}
+
+.rt1 {
+  color: rgb(252, 252, 9);
+  font-size: 36px;
+  text-align: center;
+}
+
+
+
+.table {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-collapse: collapse;
+  font-size: 24px;
+}
+
+.team {
+  color: rgb(241, 241, 247);
+  text-shadow: 1px 1px 1px #010124, 1px 2px 1px #1a0303,
+    1px 10px 5px rgba(16, 16, 16, 0.5), 1px 15px 10px rgba(16, 16, 16, 0.4),
+    1px 20px 30px rgba(16, 16, 16, 0.3), 1px 25px 50px rgba(16, 16, 16, 0.2);
+  width: auto;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.name {
+  font-size: 24px;
+}
+
+.tour_up {
+  width: 100%;
+  max-width: 1200px;
+  padding: 50px;
+  color: #f3f5f3;
+  text-align: center;
+}
+
+.nav-links a.active {
+  color: #d96b1d;
+  font-weight: bold;
+}
+
+.table-container {
+font-family: "MyFont1";
+}
+
+
+body {
+font-size: 16px;
+line-height: 1.5;
+
+margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.img {
+max-width: 100%;
+height: auto;
+}
+
+
+
+
+
+
+
+
+
+
