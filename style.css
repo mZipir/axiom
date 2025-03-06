@@ -1600,46 +1600,55 @@ header {
 .cresult1_1fourth {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .cresult1_2fourth {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_3fourth {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .cresult1_1fifth {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_2fifth {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_3fifth {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_1sixth {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .cresult1_2sixth {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_3sixth {
   text-align: center;
   font-size: 38px;
+  color: yellow;
 }
 
 .cresult1_1seventh {
@@ -1737,17 +1746,87 @@ margin: 0 auto;
 
 
 
-
-
-
-
 .img {
 max-width: 100%;
 height: auto;
 }
 
 
+.header .btn {
+  display: inline-block;
+  background: gold;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
 
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.how-it-works, .leaderboard, .upcoming-matches, .join {
+  background: rgb(226, 109, 109);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.step {
+  background: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+  margin: 5px;
+}
+
+.leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.leaderboard th, .leaderboard td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.upcoming-matches ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upcoming-matches li {
+  padding: 10px;
+  background: #eee;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.upcoming-matches a {
+  float: right;
+  color: blue;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
 
 
 
