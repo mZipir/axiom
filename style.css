@@ -1654,31 +1654,37 @@ header {
 .cresult1_1seventh {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_2seventh {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_3seventh {
   text-align: center;
   font-size: 38px;
+  color: green;
 }
 
 .cresult1_1eighth {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_2eighth {
   text-align: center;
   font-size: 38px;
+  color: red;
 }
 
 .cresult1_3eighth {
   text-align: center;
   font-size: 38px;
+  color: green;
 }
 
 .rt {
